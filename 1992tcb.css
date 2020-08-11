@@ -13,7 +13,13 @@
 
 .ML		{
 		width:auto
-		}
+}
+
+#bgdiv  {
+  width: 50%;
+  height: 50%;
+  
+}
 a:link		{
 		color: black;
 		text-decoration: none;
@@ -33,6 +39,7 @@ h1		{
 		letter-spacing: .3em;
 		margin:0;
     		padding:0;
+		text-shadow: 0px 0px 4px white;
 		}
 h2		{
 		font-family: 'Chewy', cursive;
@@ -40,6 +47,7 @@ h2		{
 		letter-spacing: .2em;
 		margin:0;
     		padding:0;
+		text-shadow: 0px 0px 4px white;
 
 		}
 h3		{
@@ -48,12 +56,14 @@ h3		{
 		letter-spacing: .1em;
 		margin:1;
     		padding:1;
+		text-shadow: 0px 0px 4px white;
 
 		}
 p		{
 		font-family: 'Chewy', cursive;
 		font-size: 1em;
 		letter-spacing: .1em;
+		text-shadow: 0px 0px 4px white;
 		}
 .bar {
     display: flex;
@@ -69,5 +79,9 @@ p		{
 }
 
 body {
-    
+    /* background-image: url("file:///Users/steve/Documents/Websites/1992TCBwebsite/images/02.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:  center center;
 }

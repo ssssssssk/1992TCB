@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-html { 
-  background: url(images/01.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-</style>
-<link rel="stylesheet" type="text/css" href="1992tcb.css">
-<link href='https://fonts.googleapis.com/css?family=Chewy|Lato:300' rel='stylesheet' type='text/css'>
+  <head>
 
-</head>
-<title>1992 TOYOTA COROLLA (BLACK)</title>
-<meta name="description" content=“Ongoing collaborative art work by Keith Rocka Knittel and Steve Kado”>
-<body>
-<div class="jumbotron">
+    <link rel="stylesheet" type="text/css" href="1992tcb.css">
+    <link href='https://fonts.googleapis.com/css?family=Chewy|Lato:300' rel='stylesheet' type='text/css'>
+    
+  </head>
+  <title>1992 TOYOTA COROLLA (BLACK)</title>
+  <meta name="description" content="Ongoing collaborative art work by Keith Rocka Knittel and Steve Kado">
+  <body>
+    <div id="bgdiv">
+      <div class="jumbotron">
+	
 	<div class="container">
-		<h1><a href="http://1992toyotacorolla.black">1992 TOYOTA COROLLA (BLACK)</a></h1><BR>
-		<h2>STEVE&nbsp;KADO&nbsp;& KEITH&nbsp;ROCKA&nbsp;KNITTEL</h3>
-		  
+	  <h1><a href="#">1992 TOYOTA COROLLA (BLACK)</a></h1><BR>
+	  <h2>STEVE&nbsp;KADO&nbsp;& KEITH&nbsp;ROCKA&nbsp;KNITTEL</h2>
 	</div>
-</div>
+      </div>
 
-<ul class="bar">
-  <li class="hours">
-    <p>OFFICE HOURS: Indefinite Furlough
-  </li> 		
-  <li class="ML">
-    <p><a href="https://tinyletter.com/1992ToyotaCorolla">JOIN MAILING LIST</a>
-  </li>
-</ul>
+      <ul class="bar">
+	<li class="hours">
+	  <p>OFFICE HOURS: Indefinite Furlough</p>
+	</li>
+	<li class="ML">
+	  <p><a href="https://tinyletter.com/1992ToyotaCorolla">JOIN MAILING LIST</a></p>
+	</li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+	 var imgCount = 7;
+	 var dir = 'images/';
+	 var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
+	 var images = new Array
+	 images[1] = "01.jpg",
+	 images[2] = "02.jpg",
+	 images[3] = "03.jpg",
+	 images[4] = "04.jpg",
+	 images[5] = "05.jpg",
+	 images[6] = "06.jpg",
+	 images[7] = "07.jpg",
+	 document.body.style.backgroundImage = "url(" + dir + images[randomCount] + ")";
+	 </script>
+ 
 </body>
+
 </html>
