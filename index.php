@@ -35,15 +35,15 @@ html {
 		<h3><a href="https://www.google.com/maps/place/2007+Wilshire+Blvd,+Los+Angeles,+CA+90057/@34.0577351,-118.2749454,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2c7a03466f2e1:0x9563da9907d094c1?hl=en-US" target="parent">2007 Wilshire Blvd., Suite 427, Los Angeles, CA, 90057</a></h3>
 	</div>
 </div>
-    
+
 <ul class="bar">
-<li class="hours">
-		<p><a href="https://twitter.com/1992TCB_hours">OFFICE HOURS: <?php include 'hours.php'?>
-		</a>
-</li> 		
-<li class="ML">
-		<p><a href="https://tinyletter.com/1992ToyotaCorolla">JOIN MAILING LIST</a>
-</li>
+  <li class="hours">
+    <p><a href="https://twitter.com/1992TCB_hours">OFFICE HOURS: <?php include 'hours.php'?>
+    </a>
+  </li> 		
+  <li class="ML">
+    <p><a href="https://tinyletter.com/1992ToyotaCorolla">JOIN MAILING LIST</a>
+  </li>
 </ul>
     </body>
 </html>
