@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <link rel="stylesheet" type="text/css" href="1992tcb.css">
+    <link rel="stylesheet" type="text/css" href="~/1992tcb.css">
     <link href='https://fonts.googleapis.com/css?family=Chewy|Lato:300' rel='stylesheet' type='text/css'>
     
   </head>
@@ -27,11 +27,11 @@
       </ul> 
     </div>
     <script type="text/javascript">
-	 var imgCount = 42;
-	 var dir = 'images/';
-	 var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
-	 var images = new Array
-	 images[1] = "01.jpg",
+     var imgCount = 42;
+     var dir = 'images/';
+     var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
+     var images = new Array
+     images[1] = "01.jpg",
 	 images[2] = "02.jpg",
 	 images[3] = "03.jpg",
 	 images[4] = "04.jpg",
@@ -74,7 +74,15 @@
 	 images[41] = "45.jpg",
 	 images[42] = "46.jpg",
 	 document.body.style.backgroundImage = "url(" + dir + images[randomCount] + ")";
-	 </script>
+     /* document.body.style.backgroundSize = "cover";
+      * document.body.style.backgroundRepeat: "no-repeat";
+      * document.body.style.backgroundAttachment: "fixed";
+      * 
+      * background-size: cover;
+      * background-repeat: no-repeat;
+      * background-attachment: fixed;
+      * background-position:  center center; */
+    </script>
  
 </body>
 
