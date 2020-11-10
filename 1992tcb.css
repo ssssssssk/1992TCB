@@ -1,9 +1,18 @@
+body {
+  background-image: url("file:///Users/steve/Documents/Websites/1992TCBwebsite/images/02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:  center center;
+}
+
+
 
 .jumbotron	{
-		position: fixed;
-		top: 0px;
-		left: 10px;
-		}
+  position: fixed;
+  top: 0px;
+  left: 10px;
+}
 
 
 
@@ -78,10 +87,3 @@ p		{
     list-style: none;
 }
 
-body {
-    /* background-image: url("file:///Users/steve/Documents/Websites/1992TCBwebsite/images/02.jpg"); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position:  center center;
-}
