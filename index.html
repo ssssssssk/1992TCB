@@ -14,7 +14,7 @@
         <div class="container">
             <h1><a href="index.html">1992 TOYOTA COROLLA
             (BLACK)</a></h1><br>
-            <h2>STEVE&nbsp;KADO&nbsp;& K&nbsp;KNITTEL</h2>
+            <div id="headline"></div>
         </div>
     </div>
     <div>
@@ -30,7 +30,7 @@
         </ul>
     </div>
     <script type="text/javascript">
-     var imgCount = 42;
+     var imgCount = 39;
      var dir = 'images/';
      var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
      var images = new Array
@@ -50,35 +50,49 @@
          images[14] = "14.jpg",
          images[15] = "15.jpg",
          images[16] = "16.jpg",
-         images[17] = "18.jpg",
-         images[18] = "21.jpg",
-         images[19] = "22.jpg",
-         images[20] = "23.jpg",
-         images[21] = "25.jpg",
-         images[22] = "26.jpg",
-         images[23] = "27.jpg",
-         images[24] = "28.jpg",
-         images[25] = "29.jpg",
-         images[26] = "30.jpg",
-         images[27] = "31.jpg",
-         images[28] = "32.jpg",
-         images[29] = "33.jpg",
-         images[30] = "34.jpg",
-         images[31] = "35.jpg",
-         images[32] = "36.jpg",
-         images[33] = "37.jpg",
-         images[34] = "38.jpg",
-         images[35] = "39.jpg",
-         images[36] = "40.jpg",
-         images[37] = "41.jpg",
-         images[38] = "42.jpg",
-         images[39] = "43.jpg",
-         images[40] = "44.jpg",
-         images[41] = "45.jpg",
-         images[42] = "46.jpg",
+         images[17] = "17.jpg",
+         images[18] = "18.jpg",
+         images[19] = "19.jpg",
+         images[20] = "20.jpg",
+         images[21] = "21.jpg",
+         images[22] = "22.jpg",
+         images[23] = "23.jpg",
+         images[24] = "24.jpg",
+         images[25] = "25.jpg",
+         images[26] = "26.jpg",
+         images[27] = "27.jpg",
+         images[28] = "28.jpg",
+         images[29] = "29.jpg",
+         images[30] = "30.jpg",
+         images[31] = "31.jpg",
+         images[32] = "32.jpg",
+         images[33] = "33.jpg",
+         images[34] = "34.jpg",
+         images[35] = "35.jpg",
+         images[36] = "36.jpg",
+         images[37] = "37.jpg",
+         images[38] = "38.jpg",
+         images[39] = "39.jpg",
          document.body.style.backgroundImage = "url(" + dir + images[randomCount] + ")";
 
      
+    </script>
+    <script>
+
+        <!-- If time is even or odd minute show different order of our names  -->
+
+
+        let hour = new Date().getMinutes();
+        let names;
+
+        if (hour % 2 == 0) {
+        names = "STEVE&nbsp;KADO&nbsp;& K&nbsp;KNITTEL";
+        }
+     else {
+         names = "K&nbsp;KNITTEL&nbsp;& STEVE&nbsp;KADO";
+     }
+
+     document.getElementById("headline").innerHTML = "<h2>" + names + "</h2>";
     </script>
 </body>
 </html>
